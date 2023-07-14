@@ -126,13 +126,19 @@ a:hover {
     line-height: 20px;
 }
 
+#about .pics p {
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
 .pics {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
 
 
 
