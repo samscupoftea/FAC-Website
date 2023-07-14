@@ -87,9 +87,10 @@ a:hover {
 }
 
 .aboutContent {
-    width: 35vw;
+    width: 60vw;
     height: 70vh;
     background-color: bisque;
+    margin-left: 2vw;
 }
 
 .Pigs {
@@ -106,8 +107,10 @@ a:hover {
 .Child1 {
     background-color: cadetblue;
     height: 25vh;
-    width: 30vw;
+
     margin-bottom: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
 
 }
 
@@ -115,12 +118,16 @@ a:hover {
     background-color: rgb(153, 170, 170);
     height: 25vh;
     margin-bottom: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
 
 .Child3 {
     background-color: rgb(230, 183, 82);
     height: 25vh;
     margin-bottom: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
 
 .Main2 {
