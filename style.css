@@ -123,7 +123,7 @@ a:hover {
 }
 
 
-
+#answer,
 #why,
 #projects,
 #contact {
@@ -181,15 +181,16 @@ a:hover {
         padding: 50% 0;
     }
 
+    #answer,
     #about,
-    #portfolio,
-    #services,
+    #why,
+    #projects,
     #contact {
         flex-direction: column;
         padding: 180px 0;
     }
 
-    #portfolio .content {
+    #why .content {
         padding: 96px 0;
     }
 }
