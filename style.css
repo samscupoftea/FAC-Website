@@ -82,17 +82,19 @@ a:hover {
 }
 
 #title .content .wrapping {
-    min-width: none;
-    color: coral
+
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(0, 0, 0)
 }
 
 #title .content .titlebox {
-    background-image: url(./images/sky-3752809_1280.jpg);
+    background-image: url(./sky-3752809_1280.jpg);
     background-color: rgb(137, 203, 234);
-
-
     height: auto;
     background-size: cover;
+    width: 30%;
+    margin: 0 auto;
 }
 
 .Main {
