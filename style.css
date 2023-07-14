@@ -114,6 +114,18 @@ a:hover {
 
 }
 
+#about h3 {
+    text-align: center;
+    font-weight: 1200;
+    font-size: 28px;
+}
+
+#about p {
+    font-size: 20px;
+    padding: 20px;
+    line-height: 20px;
+}
+
 .pics {
 
     display: flex;
