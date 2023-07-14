@@ -91,6 +91,51 @@ a:hover {
     height: 70vh;
     background-color: bisque;
     margin-left: 2vw;
+    overflow: scroll;
+}
+
+.aboutContent img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px 0;
+
+}
+
+.pics {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+
+}
+
+.pic1 {
+    height: 25vh;
+
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.pic2 {
+    height: 25vh;
+
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.pic3 {
+    height: 25vh;
+    width: fit-content;
+
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
 
 .Pigs {
