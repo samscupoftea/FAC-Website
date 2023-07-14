@@ -54,7 +54,7 @@ a:hover {
 #title {
     position: relative;
     background-image: url(./Me.JPEG);
-    background-image: url(./2b4fd2c5c4830b86484d7cc623664d4f.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 1.1), rgba(254, 248, 248, 0.1)), url(./moment-player.jpeg);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -93,6 +93,9 @@ a:hover {
 
 #about {
     background-color: khaki;
+    /* background-image: url(./moment-player.jpeg);
+    background-position: center center;
+    background-size: cover; */
 }
 
 .aboutContent {
@@ -242,10 +245,17 @@ a:hover {
 
 }
 
+#why p {
+    font-size: 20px;
+}
+
 #why .content .answer {
     font-size: 30px;
     line-height: 5vh;
-    color: red;
+    color: rgb(191, 18, 18);
+    font-family: 'Times New Roman', Times, serif;
+
+    font-style: italic;
 }
 
 #why .content .button-area .btns button {
