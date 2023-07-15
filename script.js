@@ -107,27 +107,28 @@ date.innerHTML = ndate;
 
 // Array and JS for my Why Software Development.
 
-const answers = [{
-    answer: ` I studied Philosophy at university and realized that I enjoy the process of trying to solve problems both big and small.`,
+const answers = [
+    {
+        answer: `As a musician and a Philosophy graduate, creativity and the pursuit of knowledge go hand in hand for me. Since joining my first FAC meet-up back in January, I have thoroughly enjoyed the process of learning and finding my own way to build projects and enhance my understanding. During my studies, I have witnessed the diverse and personal ways in which individuals express their personalities through their coding style and problem-solving approaches.`,
+    },
+    {
+        answer: `Creativity holds immense importance to me, and while developing my coding skills, I have had the opportunity to not only express a part of myself but also to be inspired by the ideas of others. This has motivated me to deepen my knowledge and expand my skill set. I appreciate the flexible nature of working with computers and the potential for collaborative work to achieve greater goals.`,
+    },
+    {
+        answer: `In my late teens, I read a book called 'Zen & The Art Of Motorcycle Maintenance' which profoundly changed my approach to life and the challenges it presents. Since then, I have been drawn to topics and endeavors that initially intimidate me. Coding, in particular, has long been an intimidating field. Starting my learning journey in January, I can confidently say that it has been one of the most rewarding pursuits I have undertaken.`,
+    },
+    {
+        answer: `Through teaching over the years in various locations worldwide, I have developed a deep respect for the importance of learning and honing skills. Software development is an area I am eager to explore, as it provides opportunities to accomplish a wide range of tasks and projects.`,
+    },
+    {
+        answer: `I strongly dislike the feeling of stagnation. I thrive on continuous growth, adaptation, and evolution. The field of software development is vast, diverse, and constantly evolving, making it an ideal career choice for me. The ever-changing landscape of coding languages and technologies is where I believe I will find plenty of fulfillment in the years to come.`,
+    },
+    {
+        answer: `I have always had a profound passion for technology and strive to stay updated with the latest developments in the field. My love for tech solidified when I got my first PlayStation console in 1999. Since then, I have utilized these tools for music production, video editing, and now, coding to create exciting projects.`,
+    },
+];
 
 
-
-}, {
-    answer: `Creativity is very important to me and while developing my coding skills, I have had the opportunity to not only express part of myself, but to see the ideas of others. This has really inspired me to deepen my knowledge and skill-set.I like the flexible nature of working via a computer. But also the promise of collaborating with people and teams to achieve a higher goal.`,
-
-}, {
-    answer: `In my late teens I read a book called 'Zen & The Art Of MoterCycle Maintenence' that profoundly changed the way approached my life and challenges within it. Ever since then I have found myself drawn to topics and things that intimidate me. Coding in particular has long loomed large as an intimidating field. Having began my learning journey back in January, I can safely say it has been one of the most rewarding pursuits I have undertaken.`,
-
-}, {
-    answer: `"Through teaching over the years and across the world, I have gained a deep respect for the importance of learning and cultivating skills. Software development is an area that I wish to explore and to gain the abilities to achieve a plethora of tasks and projects."`,
-
-}, {
-    answer: `I really dislike the feeling of stagnation. I like to be constantly growing, adapting and evolving. The field of software development is so vast, varied and deep that I'm certain I will have a fulfilling career within. The ever-changing landscape of new coding languages and technology is right where I want to be.`,
-
-}, {
-    answer: `I have always had a huge passion for technology and I am always up-to-date with the latest developments in the field. My love for tech was solidified by getting my first playstation console back in 1999. Since then I have gone on you use these tools to produce music, edit video and now actually write code to create exciting projects.`,
-
-}];
 
 let qbtn1 = document.querySelector("#Qbtn1");
 let qbtn2 = document.querySelector("#Qbtn2");
