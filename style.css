@@ -122,9 +122,11 @@ a:hover {
 
 #about {
     background-color: khaki;
+    background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(171, 171, 169, 0.7)), url(./beach.jpg);
     /* background-image: url(./moment-player.jpeg);
     background-position: center center;
     background-size: cover; */
+
 }
 
 .aboutContent {
@@ -289,6 +291,7 @@ a:hover {
 
 #why {
     background-color: lavender;
+    background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(171, 171, 169, 0.7)), url(./mountain\ path.jpg);
 
 }
 
@@ -327,6 +330,7 @@ a:hover {
 
 #projects {
     background-color: darkseagreen;
+    background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(171, 171, 169, 0.7)), url(./wp7367577-blue-clouds-wallpapers.jpg);
 }
 
 .projects .content {
@@ -422,6 +426,7 @@ td {
     font-size: 10px;
 
 } */
+
 div.tabletitle {
 
     font-size: 30px;
