@@ -422,6 +422,19 @@ td {
     font-size: 10px;
 
 } */
+div.tabletitle {
+
+    font-size: 30px;
+    text-align: center;
+    border-radius: 3px;
+    border: 10px solid rgb(76, 152, 229);
+    background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(171, 171, 169, 0.7)), url(./vinylmatter-main.jpg);
+    background-position: center;
+    background-size: cover;
+    border-style: groove;
+    padding: 20px;
+
+}
 
 
 
@@ -456,16 +469,7 @@ table {
 
 }
 
-div.tabletitle {
 
-    font-size: 30px;
-    text-align: center;
-    border-radius: 3px;
-    border: 10px solid rgb(76, 152, 229);
-    border-style: groove;
-    padding: 20px;
-
-}
 
 #musicTable td {
     font-size: 25px;
