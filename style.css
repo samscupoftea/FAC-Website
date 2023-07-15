@@ -427,6 +427,13 @@ td {
 
 } */
 
+
+#contact {
+    background-color: darkseagreen;
+    background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(171, 171, 169, 0.7)), url(./wp7367577-blue-clouds-wallpapers.jpg);
+}
+
+
 div.tabletitle {
 
     font-size: 30px;
