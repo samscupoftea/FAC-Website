@@ -38,3 +38,12 @@ There are several reasons why I decided to create this website:
 - Practice and learning: Developing this website allowed me to practice and apply various techniques, such as flexbox design, DOM manipulation, and JavaScript array manipulation.
 - Founders and Coders application: This website project is my submission for the Founders and Coders bootcamp application, demonstrating my commitment and dedication to the program.
 
+
+## Learning Resources
+
+Throughout the development of this website, I have utilized a variety of learning resources. Here are some of the resources that have been particularly helpful:
+
+- YouTube tutorials: Watching and coding along with experienced developers building web pages has provided valuable insights into page structure, methods, and techniques.
+- WebMD and Google: These resources have been instrumental in finding specific functions and learning various styling techniques, such as flexbox and columns.
+- ChatGPT: ChatGPT has been an invaluable companion, helping me check for typos, gain a deeper understanding of code, and explore the intricacies of HTML, CSS, and JavaScript.
+- FAC Discord and meetups: Interacting with other developers on the FAC Discord and attending meetups has provided a wealth of knowledge, shared experiences, and valuable conversations. It has helped me gain perspective, solidify my understanding of certain concepts, and identify areas where I can improve.
