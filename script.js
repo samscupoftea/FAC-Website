@@ -1,3 +1,5 @@
+//Sam's Record Shop JS Below 
+
 let musicData = {
     "Jeff Buckley": {
         album: "Grace",
@@ -66,39 +68,7 @@ musicForm.addEventListener('submit', function (event) {
     musicForm.reset();
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Live date and time clock JS Code. 
 
 let output = document.getElementById('output');
 let numberDate = document.getElementById('date');
@@ -135,12 +105,7 @@ output.innerHTML = day;
 date.innerHTML = ndate;
 
 
-
-
-
-
-
-
+// Array and JS for my Why Software Development.
 
 const answers = [{
     answer: ` I studied Philosophy at university and realized that I enjoy the process of trying to solve problems both big and small.`,
