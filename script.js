@@ -113,19 +113,19 @@ const answers = [{
 
 
 }, {
-    answer: `Creativity is very important to me and while developing my coding skills, I have had the opportunity to not only express part of myself, but to see the ideas of others. This has really inspired me to deepen my knowledge and skill-set.`,
+    answer: `Creativity is very important to me and while developing my coding skills, I have had the opportunity to not only express part of myself, but to see the ideas of others. This has really inspired me to deepen my knowledge and skill-set.I like the flexible nature of working via a computer. But also the promise of collaborating with people and teams to achieve a higher goal.`,
 
 }, {
-    answer: `"The practice of mindfulness allows us to become aware of the stream of thoughts and feelings that we usually identify with as our self."`,
+    answer: `In my late teens I read a book called 'Zen & The Art Of MoterCycle Maintenence' that profoundly changed the way approached my life and challenges within it. Ever since then I have found myself drawn to topics and things that intimidate me. Coding in particular has long loomed large as an intimidating field. Having began my learning journey back in January, I can safely say it has been one of the most rewarding pursuits I have undertaken.`,
 
 }, {
-    answer: `"You can’t control how you feel. But you can always choose how you act."`,
+    answer: `"Through teaching over the years and across the world, I have gained a deep respect for the importance of learning and cultivating skills. Software development is an area that I wish to explore and to gain the abilities to achieve a plethora of tasks and projects."`,
 
 }, {
-    answer: `"Awakening is not changing who you are, but discarding who you are not."`,
+    answer: `I really dislike the feeling of stagnation. I like to be constantly growing, adapting and evolving. The field of software development is so vast, varied and deep that I'm certain I will have a fulfilling career within. The ever-changing landscape of new coding languages and technology is right where I want to be.`,
 
 }, {
-    answer: `"Mindfulness is the key to transforming your relationship with life."`,
+    answer: `I have always had a huge passion for technology and I am always up-to-date with the latest developments in the field. My love for tech was solidified by getting my first playstation console back in 1999. Since then I have gone on you use these tools to produce music, edit video and now actually write code to create exciting projects.`,
 
 }];
 
