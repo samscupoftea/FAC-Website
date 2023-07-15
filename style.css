@@ -153,16 +153,29 @@ a:hover {
 }
 
 #about p {
-    font-size: 20px;
-    padding: 20px;
-    line-height: 20px;
+    font-size: 26px;
+
+
 }
 
 #about .pics p {
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 10px;
 
 }
+
+#about .Child1 p {
+    font-size: 18px;
+}
+
+#about .Child2 p {
+    font-size: 18px;
+}
+
+#about .Child3 p {
+    font-size: 18px;
+}
+
 
 .pics {
 
@@ -261,7 +274,7 @@ a:hover {
 #answer,
 #why,
 #projects,
-#contact {
+#musicClub {
     position: relative;
 
     display: flex;
@@ -429,7 +442,7 @@ td {
 } */
 
 
-#contact {
+#musicClub {
     background-color: darkseagreen;
     background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(171, 171, 169, 0.7)), url(./wp7367577-blue-clouds-wallpapers.jpg);
 }
@@ -642,7 +655,7 @@ input[type=submit] {
 
     #why,
     #projects,
-    #contact {
+    #musicClub {
         flex-direction: column;
         padding: 180px 0;
     }
