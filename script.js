@@ -1,3 +1,105 @@
+let musicData = {
+    "Jeff Buckley": {
+        album: "Grace",
+        year: 1994,
+        whyLove: "Because it's amazing!"
+    },
+};
+
+let musicTable = document.querySelector('#musicTable tbody');
+
+for (let artistTitle in musicData) {
+    let album = musicData[artistTitle];
+
+    let row = document.createElement('tr');
+
+    let artistCell = document.createElement('td');
+    artistCell.textContent = artistTitle;
+    row.appendChild(artistCell);
+
+    let albumCell = document.createElement('td');
+    albumCell.textContent = album.album;
+    row.appendChild(albumCell);
+
+    let yearCell = document.createElement('td');
+    yearCell.textContent = album.year;
+    row.appendChild(yearCell);
+
+    let whyLoveCell = document.createElement('td');
+    whyLoveCell.textContent = album.whyLove;
+    row.appendChild(whyLoveCell);
+
+    musicTable.appendChild(row);
+}
+
+let musicForm = document.querySelector('#musicForm');
+
+musicForm.addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    let artistInput = document.querySelector('#artistInput');
+    let albumInput = document.querySelector('#albumInput');
+    let yearInput = document.querySelector('#yearInput');
+    let whyLoveInput = document.querySelector('#whyLoveInput');
+
+    // Create a new album object with the data entered by the user
+    let newAlbum = {
+        album: albumInput.value,
+        year: parseInt(yearInput.value),
+        whyLove: whyLoveInput.value
+    };
+
+    // Add the new album to the existing musicData object
+    musicData[artistInput.value] = newAlbum;
+
+    // Add a new row to the table with the new album data
+    let row = document.createElement('tr');
+    row.innerHTML = `
+      <td>${artistInput.value}</td>
+      <td>${newAlbum.album}</td>
+      <td>${newAlbum.year}</td>
+      <td>${newAlbum.whyLove}</td>
+    `;
+    musicTable.appendChild(row);
+
+    // Reset the form
+    musicForm.reset();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let output = document.getElementById('output');
 let numberDate = document.getElementById('date');
 
@@ -96,3 +198,7 @@ qbtn6.addEventListener("click", function () {
 
 let githubLink = document.getElementById("github");
 githubLink.href = "https://github.com/samscupoftea";
+
+
+// Sam's record shop.
+
