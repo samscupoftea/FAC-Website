@@ -153,12 +153,12 @@ a:hover {
 }
 
 #about h3 {
-
+    font-size: 25px;
     width: 50%;
     margin-top: 20vw;
     margin: auto;
     line-height: 1.6;
-    color: rgb(252, 243, 243);
+    color: rgb(0, 0, 0);
     text-align: center;
 
 
