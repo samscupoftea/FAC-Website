@@ -4,8 +4,19 @@ let musicData = {
     "Jeff Buckley": {
         album: "Grace",
         year: 1994,
-        whyLove: "Because it's amazing!"
+        whyLove: "I discovered the album back in 2009 while still learning how to play guitar and write songs. It was this album that really inspired me in a way that nothing ever really had. Thanks to this record I managed to find and cultivate my own voice for song-writing. It's also just a beautiful, beautiful record."
     },
+    "Laura Marling": {
+        album: "I Speak Because I Can",
+        year: 2010,
+        whyLove: "This record came out just as I was starting my first year at University in Manchester. Laura Marling's songwriting and unqie style was just so inspiring and just what I need when trying to develop my own material."
+    },
+    "Talk Talk": {
+        album: "The Colour of Spring",
+        year: 1986,
+        whyLove: "Talk Talk are mostly known for their 80's pop hit 'It's My Life', but they are so much more than that. Mark Hollis and the band went on to make increasingly nuanced and beautiful music. As time went on, Mark Hollis would go on to produce less and less commercialised music. For me, The Colour of Spring embodies the perfect balance of the catchy pop affectation that they started with, but with more varied arrangements and deeper material."
+    },
+
 };
 
 let musicTable = document.querySelector('#musicTable tbody');
