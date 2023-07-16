@@ -154,12 +154,20 @@ a:hover {
 
 #about h3 {
 
+    width: 50%;
+    margin-top: 20vw;
+    margin: auto;
+    line-height: 1.6;
+    color: rgb(252, 243, 243);
     text-align: center;
-    font-weight: 1000;
-    font-size: 28px;
 
 
 
+}
+
+#about h5 {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .introText .p {
@@ -178,7 +186,7 @@ a:hover {
 
 }
 
-#about .Child1 p {
+.Child1 p {
     font-size: 18px;
     margin-left: 20px;
 }
@@ -230,32 +238,35 @@ a:hover {
 .Child1 {
     background-color: rgba(204, 211, 219, 0.2);
     border-radius: 10px;
-
+    height: auto;
 
 
     margin-bottom: 1vh;
     margin-left: 2vh;
     margin-right: 2vh;
+    overflow: scroll;
 
 
 }
 
 .Child2 {
     background-color: rgba(204, 211, 219, 0.2);
-    height: 25vh;
+    height: auto;
     margin-bottom: 1vh;
     margin-left: 2vh;
     margin-right: 2vh;
     border-radius: 10px;
+    overflow: scroll;
 }
 
 .Child3 {
     background-color: rgba(204, 211, 219, 0.2);
-    height: 25vh;
+    height: auto;
     margin-bottom: 1vh;
     margin-left: 2vh;
     margin-right: 2vh;
     border-radius: 10px;
+    overflow: scroll;
 
 
 
