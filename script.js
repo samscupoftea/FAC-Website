@@ -138,7 +138,7 @@ const answers = [
 ];
 
 
-
+// Create variables for each button using query selector to meld JS variable to each button in my HTML. 
 let qbtn1 = document.querySelector("#Qbtn1");
 let qbtn2 = document.querySelector("#Qbtn2");
 let qbtn3 = document.querySelector("#Qbtn3");
@@ -146,7 +146,7 @@ let qbtn4 = document.querySelector("#Qbtn4");
 let qbtn5 = document.querySelector("#Qbtn5");
 let qbtn6 = document.querySelector("#Qbtn6");
 let answer = document.querySelector(".answer");
-
+// I added am event listener onto the click for each and every button, declaring a function that targets my answers array and displays it. 
 qbtn1.addEventListener("click", function () {
     answer.innerHTML = answers[0].answer;
 });
